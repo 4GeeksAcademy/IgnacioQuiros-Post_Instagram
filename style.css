@@ -1,0 +1,65 @@
+/*General*/
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.post{
+    margin-top: 20px;
+    background-color: white;
+    width: 600px;
+    border-radius: 4px;
+    overflow: hidden; /*To hide everything that could leave the post measures*/
+}
+
+/*Header*/
+header{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-first{
+    display: flex;
+    margin: 3% 3% 5%;
+}
+.code-name{
+    margin-left: 10%;
+    font-size: 22px;
+}
+.code{
+    margin-bottom: -30%;
+}
+.name
+{
+    margin-top: 40px;
+}
+.header-last{
+    margin: 20px;
+    cursor: pointer;
+}
+
+/*Image*/
+.responsive{
+    margin-top: -2%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/*Bottom*/
+.bottom{
+    padding-bottom: 4px;
+    margin: 3%;
+    font-size: 20px;
+}
+.bottom-icons {
+    font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+.bottom-icons > div > i:hover{
+    cursor: pointer;
+    color: rgb(163, 5, 5);
+}
